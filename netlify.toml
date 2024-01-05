@@ -1,5 +1,1 @@
-[[redirects]]
-  from = "https://oldakulaurila.netlify.app/*"
-  to = "https://old.akulaurila.com/:splat"
-  status = 301
-  force = true
+
