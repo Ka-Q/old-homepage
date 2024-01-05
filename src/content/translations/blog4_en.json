@@ -1,0 +1,24 @@
+{
+    "id": "en",
+    "title": "A new, better blog!",
+    "author_and_date": "Aku Laurila, 10.4.2022",
+
+    "blog_updated": "So, I updated the blog a little",
+    "blog_updated_paragraph": "The blog-view, even though working, was not very user-friendly. There weren't any problems yet but I had a growing suspicion, that as the amount of blog-posts would grow, new proplems could emerge. All of the blog-posts were shown at once, one after the another. There was no way to filter the posts and their order was not customizable. So... I went ahead and implemented exactly these functionalities.",
+    "new_in_blog": "New in blog",
+
+    "filter_by_title": "Filter by title",
+    "order": "Change order",
+    "alphabetical": "Alphabetical (ascending and descending)",
+    "according_to_date": "Order by date (ascending and descending)",
+    "blog_has_now_tags": "Each blogpost now has tags",
+
+    "list_web": "Web",
+    "list_meta": "Meta",
+    "list_3D": "3D",
+    "list_hobbies": "hobbies",
+    "list_more": "More tags in the future?",
+
+    "filter_language": "Also an option to filter by language"
+}
+

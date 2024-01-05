@@ -1,0 +1,61 @@
+{
+    "id": "fi",
+    "title": "Sivuston toteutuksesta, rakenteesta ja toiminnallisuudesta",
+    "author_and_date": "Aku Laurila, 13.2.2022",
+
+    "implementation_methods": "Toteutustekniikat",
+    "paragraph_1_1": "Tämä sivusto on tehty alunperin koulutehtävää varten. Tarkoituksena on rakentaa käyttäjäystävällinen käyttöliittymä sekä työpöytä-, että mobiiliselaimille. Toteutin tämän sivuston käyttäen ",
+    "paragraph_1_2": "React-frameworkiä",
+    "paragraph_1_3": ". Reactin tukena käytän ",
+    "paragraph_1_4": " React-Bootstrap",
+    "paragraph_1_5": " nimistä kirjastoa, joka mahdollistaa bootstrapin luokkien ja toiminnallisuuden hyödyntämisen React-komponenttien muodossa. Käytyäni läpi muutamia vaihtoehtoja sivuston hostaamiselle, päädyin ",
+    "paragraph_1_6": "Netlifyyn",
+    "paragraph_1_7": ", joka on rajallisissa määrin ilmainen, sekä tarjoaa mahdollisuuden ylläpitää staattista web-sivustoa, hyödyntäen silti mm. form-komponenttien toiminnallisuuksia.",
+
+    "why_react": "Miksi React?",
+        "why_r_1": "helppo aloittaa (npx create-react-app)",
+        "why_r_2": "vasta opetettu kursseilla",
+        "why_r_3": "tuotannossa standardi",
+        "why_r_4": "suosittu",
+        "why_r_5": "hyötyä tulevaisuudessa",
+
+    "why_react_bootstrap": "Miksi React-Bootstrap?",
+        "why_rb_1": "toimii hyvin Reactin tukena",
+        "why_rb_2": "bootstrap ennestään tuttu",
+        "why_rb_3": "toiminnallisuutta tyylien mukana",
+        "why_rb_4": "helppoa asentaa valmiiseen projektiin (npm install)",
+
+    "why_netlify": "Miksi Netlify?",
+        "why_n_1": "serverless",
+            "why_n_1_1": "kuitenkin voi saada esim. form-submissions tai muita funktioita",
+        "why_n_2": "pelkkä frontend riittää",
+        "why_n_3": "osaa käsitellä formit",
+        "why_n_4": "ei samoja rajoitteita toiminnallisuudessa, kuin esim. github pages",
+        "why_n_5": "voi jatkaa omana projektina, toisin kuin yliopiston palvelimilla",
+        "why_n_6": "mahdollisuus täysin omaan domainiin",
+        "why_n_7": "ilmainen tiettyyn rajaan asti",
+            "why_n_7_1": "100GB bandwidth / kk",
+            "why_n_7_2": "300 build minutes / kk",
+            "why_n_7_3": "100 form submissions / kk",
+            "why_n_7_4": "10GB form upload / kk",
+            "why_n_7_5": "jne.",
+    
+    "alternatives": "Vaihtoehtoja?",
+    "summary_1": "Syinä Reactin, React-bootstrapin sekä Netlifyn käyttöön ovat tiivistettynä siis ",
+    "summary_2": "tuttuus, helppous, skaalautuvuus, tarpeellisen toiminnallisuuden saavutettavuus ja hinta.",
+
+    "structure": "Rakenne",
+    "paragraph_2_1": "Rakeenteellisesti päädyin rakentamaan sivuston rungon ns. \"korteista\". Tein erilaisia react-komponentteja, jotka toimivat pohjana sivuston sisällön näyttämiselle. Tällaisia komponentteja ovat mm. TextCard-komponentti, joka saa parametrikseen otsikon, sekä tekstin. Tällöin Komponentti renderöi yksinkertaisen kortin, joka esittää annetun sisällön. Alla esimerkki TextCard:sta.",
+    "paragraph_2_2": "Tällainen korttimainen ulkoasu saa sivustolle mielestäni ilmavan, sekä ns. \"leijuvan\" olemuksen, josta ainakin itse pidän. Korttien sisältöä ja ominaisuuksia on helppo muokata ja uusien korttivariaatioiden luominen on yksinkertaista. Samaa React-komponenttia on helppoa käyttää moneen kertaan, vaihtamalla vain sen sisältöä. Esimerkiksi Portfoliosta löytyvä tarkastelunäkymä, jolla voi katsoa kuva-albumia, skaalautuu täydellisesti minkä kokoiselle- tai sisältöiselle kuva-albumille tahansa.",
+
+    "functionality_and_features": "Toiminnallisuus ja ominaisuudet",
+        "ff_1": "Single-page application",
+        "ff_2": "Satunnaisesti vaihtuva taustakuva",
+        "ff_3": "Interaktiivinen portfolio",
+        "ff_4": "Blogi, joka mahdollistaa monipuolisen sisällön asettelun",
+        "ff_5": "Upotettuja elementtejä (videot, kartta)",
+        "ff_6": "Toimiva viestilomake",
+        "ff_7": "Skaalautuu erinomaisesti mobiililaitteille sekä isommalle näytölle",
+        "ff_8": "Mediasisältöä optimoitu mm. hyödyntämällä \"thumbnail\"-kuvia"
+}
+
