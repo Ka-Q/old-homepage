@@ -1,0 +1,77 @@
+{
+    "id": "fi",
+    "front_page": "Etusivu",
+    "blog": "Blogi",
+    "portfolio": "Portfolio",
+    "contact": "Ota yhteyttä",
+
+    "close_button":"Sulje",
+
+    "about_title": "Meikämandoliini",
+    "about_1": "Terve! Nimeni on Aku Laurila. Olen 22-vuotias ja opiskelen tietojenkäsittelytiedettä Itä-Suomen yliopistossa Kuopiossa. Päädyit tälle sivulle varmaan, koska löysit tänne googlesta tai lähetin sinulle linkin. Arvatenkin, olet täällä selvittämässä, kuka olen ja mitä teen.",
+    "about_2": "Olen myös intohimoinen 3D-harrastaja. Tekemiäni 3D-asetelmia, animaatioita, materiaaleja ym. löytyy \"Portfolio\"-alisivulta.",
+
+    "about_site_title": "Tämän sivuston tarkoitus ja toteutustekniikat",
+    "about_site_1": "Tämä sivusto lähti elämään kouluprojektina, mutta päivittelyä on tapahtunut sen jälkeenkin. Alkuperäisenä tarkoituksena oli rakentaa käyttäjäystävällinen käyttöliittymä sekä työpöytä-, että mobiiliselaimille. Toteutin tämän sivuston käyttäen ",
+    "about_site_2": "React-frameworkiä",
+    "about_site_3": ", jonka rinnalle asensin ",
+    "about_site_4": "React-Bootstrapin.",
+    "about_site_5": " Lisää sivuston toteutuksesta blogin puolella.",
+
+    "read_more_button": "Lue lisää...",
+
+    "filter": "Suodatin",
+    "search_by_title": "Hae otsikolla",
+    "sort": "Järjestä",
+    "date_ascending": "Pvm (vanhin → uusin)",
+    "date_descending": "Pvm (uusin → vanhin)",
+    "alphabetical_ascending": "Aakkosellinen (A → Ö)",
+    "alphabetical_descending": "Aakkosellinen (Ö → A)",
+
+    "tags": "Tunnisteet:",
+    "3D": "3D",
+    "web": "Web",
+    "meta": "Meta",
+    "hobbies": "Vapaa-aika",
+    "languages": "Kielet",
+    "clear_filters": "Tyhjennä suodattimet",
+
+    "showing": "Näytetään ",
+    "items_per_page": "postausta/sivu",
+    "currently_viewing_page": "Olet tällä hetkellä sivulla ",
+    "next": "🡺",
+    "previous": "🡸",
+
+    "about_implementation_title": "Sivuston toteutuksesta, rakenteesta ja toiminnallisuudesta",
+    "about_implementation_text": "Tämä sivusto on tehty alunperin koulutehtävää varten. Tarkoituksena on rakentaa käyttäjäystävällinen käyttöliittymä sekä työpöytä-, että mobiiliselaimille. Toteutin tämän sivuston käyttäen React-frameworkiä. Reactin tukena käytän React-Bootstrap nimistä kirjastoa, joka mahdollistaa bootstrapin luokkien ja toiminnallisuuden hyödyntämisen React-komponenttien muodossa. Käytyäni läpi muutamia vaihtoehtoja sivuston hostaamiselle, päädyin Netlifyyn, joka on rajallisissa määrin ilmainen, sekä tarjoaa mahdollisuuden...",
+    "comparison_to_mockups_title": "Vertailua mockuppeihin",
+    "comparison_to_mockups_text": "Ennen sivuston varsinaisen kehitystyön alkamista, luonnostelin paintissa muutamia mock-up -kuvia tulevista alisivuista. Sivuston rakenne vastaa suurimmilta osin mock-uppeja, mutta \"Yhteystiedot\" -alasivu vaihtui \"Ota Yhteyttä\" -sivuksi. Myös sivulle suunnitellut yhteystiedot päätin korvata kartalla, sillä en nähnyt tarpeelliseksi jakaa puhelinnumeroani tai sähköpostiani julkisesti netissä. Yhteydenottolomakkeella voi jättää viestin, jonka jälkeen voin vastailla siihen normaalin...",
+    "last_minute_changes_title": "Viimehetken muutoksia",
+    "last_minute_changes_text": "Projektin palautuspäivä lähestyy ja olen saanut sivuston nyt jotakuinkin valmiiksi. Tein nyt vielä aika suuria muutoksia sivuston navigointiin. Järjestelin myös lähdekoodia paljon siistimmäksi. Vastaan tuli myös muutamia bugeja, joita korjailin. Suurin osa näistä bugeista liittyi mobiililaitteella selaamiseen. Korjattavaa on edelleen, mutta sivusto vaikuttaa jo paljon \"valmiimmalta\"...",
+    "helpful_3D_assets_title": "Kokoelma hyödyllistä 3D-materiaalia",
+    "helpful_3D_assets_text": "Tähän kasaan listaksi mielenkiintoisia, hyödyllisiä ja pääosin ilmaista 3D-materiaalia kategorioittain. Iso osa näistä sivuista/sivustoista on istunut jo kauan kirjanmerkkikansioissani. Tarkemmat tiedot lisensseistä ja käyttöluvista löytyvät sitten sivustoilta...",
+    "new_in_blog_title": "Uusi, parempi blogi!",
+    "new_in_blog_text": "Blogisivusto, joskin toimiva, ei ollut aiemmin kovinkaan käyttäjäystävällinen. Ongelmia ei sinänsä vielä ollut, mutta arvelin, että blogipostausten määrän kasvaessa, voisi syntyä suuriakin ongelmia. Kaikki blogipostaukset näkyivät kerralla, yhteen pötköön. Blogipostauksia ei voinut rajata millään tavoilla, eikä niiden järjestystä voinut muuttaa. Päätinpä nyt sitten lisätä toiminnallisuuden...",
+
+
+    "portfolio_explanation_1": "Klikkaa kuvaa avataksesi albumin, joka liittyy kyseiseen kuvaan. Albumeista löytyy mm. Viewport render, sekä tiedot mahdollisista referenssi-kuvista. ",
+    "portfolio_explanation_2": "Huom!",
+    "portfolio_explanation_3": " Joidenkin kuvien resoluutio on suuri, joten lataamisessa voi kestää kauan.",
+
+    "portfolio_3D_architecture": "3D-arkkitehtuuri",
+    "portfolio_3D_animation": "3D-animaatioita",
+    "portfolio_3D_materials": "3D-materiaaleja",
+
+    "map_description": "Sijainti kartalla",
+
+    "contact_form_title": "Jätä viesti",
+    "contact_form_explanation_1": "Voit jättää minulle viestin. Tämä viestilomake käyttää Netlifyn sisäänrakennettua ",
+    "contact_form_explanation_2": "viestitoimintoa.",
+    "contact_form_error": "Sähköposti väärässä muodossa tai puuttuu. Viestin täytyy olla yli 5 merkkiä pitkä.",
+    "contact_form_success": "Antamasi tiedot ovat oikeassa muodossa!",
+    "contact_form_send": "Lähetä",
+    "contact_form_clear": "Tyhjennä",
+    "contact_form_disclaimer": "Tietojasi ei jaeta julkisesti",
+    "contact_form_email": "Sähköpostiosoitteesi",
+    "contact_form_msg": "Viestisi (Vähintään 5 merkkiä)"
+}

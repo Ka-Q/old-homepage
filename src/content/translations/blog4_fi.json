@@ -1,0 +1,25 @@
+{
+    "id": "fi",
+    "title": "Uusi, parempi blogi!",
+    "author_and_date": "Aku Laurila, 10.4.2022",
+
+    "blog_updated": "Päivittelin hieman blogia",
+    "blog_updated_paragraph": "Blogisivusto, joskin toimiva, ei ollut aiemmin kovinkaan käyttäjäystävällinen. Ongelmia ei sinänsä vielä ollut, mutta arvelin, että blogipostausten määrän kasvaessa, voisi syntyä suuriakin ongelmia. Kaikki blogipostaukset näkyivät kerralla, yhteen pötköön. Blogipostauksia ei voinut rajata millään tavoilla, eikä niiden järjestystä voinut muuttaa. Päätinpä nyt sitten lisätä toiminnallisuuden näihin.",
+
+    "new_in_blog": "Uutta blogissa",
+
+    "filter_by_title": "Haku otsikolla",
+    "order": "Järjestys",
+    "alphabetical": "Aakkosellinen (nouseva ja laskeva)",
+    "according_to_date": "Päivämäärän mukaan (nouseva ja laskeva)",
+    "blog_has_now_tags": "Blogipostauksissa on nyt tunnisteita",
+
+    "list_web": "Web",
+    "list_meta": "Meta",
+    "list_3D": "3D",
+    "list_hobbies": "Vapaa-aika",
+    "list_more": "Lisää tulevaisuudessa?",
+
+    "filter_language": "Mahdollisuus rajata myös kielen perusteella"
+}
+

@@ -1,0 +1,61 @@
+{
+    "id": "fi",
+    "title": "About implementation, structure and functionality of this site",
+    "author_and_date": "Aku Laurila, 13.2.2022",
+
+    "implementation_methods": "Implementation technologies",
+    "paragraph_1_1": "This site was originally created for a uni-assignment. The purpose of the assignment was to create a responsive user-interface for both mobile- and desktop browsers. For the development of this site, I've mainly used ",
+    "paragraph_1_2": "the React-framework",
+    "paragraph_1_3": ". In addition to that, I also installed the ",
+    "paragraph_1_4": " React-Bootstrap",
+    "paragraph_1_5": " library that enables the use of bootstrap's classes and functionality as React components. After going through the options for hosting the site, I ended up with ",
+    "paragraph_1_6": "Netlify",
+    "paragraph_1_7": ". Netlify's free to a certain extent and it also offers the possibility to host a static website while still implementing for example form-component's functionalities.",
+
+    "why_react": "Why React?",
+        "why_r_1": "easy to start (npx create-react-app)",
+        "why_r_2": "recently taught on courses",
+        "why_r_3": "production standard",
+        "why_r_4": "popular",
+        "why_r_5": "future benefits",
+
+    "why_react_bootstrap": "Why React-Bootstrap?",
+        "why_rb_1": "support's React very well",
+        "why_rb_2": "I have previous experience with bootstrap",
+        "why_rb_3": "style with included functionality",
+        "why_rb_4": "easy to install to an ongoing project (npm install)",
+
+    "why_netlify": "Why Netlify?",
+        "why_n_1": "serverless",
+            "why_n_1_1": "still can handle for example form-submissions or other functions",
+        "why_n_2": "only frontend needed",
+        "why_n_3": "can handle forms",
+        "why_n_4": "not the same functional restrictions as for example github pages",
+        "why_n_5": "can continue as my own project, unlike hosting on university's servers",
+        "why_n_6": "possibility for a custom domain",
+        "why_n_7": "free up to a certain extent",
+            "why_n_7_1": "100GB bandwidth / month",
+            "why_n_7_2": "300 build minutes / month",
+            "why_n_7_3": "100 form submissions / month",
+            "why_n_7_4": "10GB form upload / month",
+            "why_n_7_5": "etc.",
+    
+    "alternatives": "Alternatives?",
+    "summary_1": "To sum up, the reasons for using React, React-Bootstrap and Netlify are ",
+    "summary_2": "the familiarity, ease of use, scalability, the necessary functionality provided and price",
+
+    "structure": "Structure",
+    "paragraph_2_1": "For the structure of the site, I decided to go with a design consisting of \"cards\". I made different react-components that work as a basis for showing content on the site. An example of a component like this is the TextCard-component, that recieves both a title and some text as a parameter. In this case the component renders a simple card that shows the specified content. Example of a TextCard below.",
+    "paragraph_2_2": "I think this card-like visual design makes the site have this airy and \"floaty\" feeling, that I personally really like. The content and features of these cards are easy to edit and new card variations are simple to implement. It's easy to reuse the same React-component many times, just by changing it's content. For example, the album-view in the Portfolio scales perfectly for a picture-album of any size or content.",
+
+    "functionality_and_features": "Functionality and features",
+        "ff_1": "Single-page application",
+        "ff_2": "Randomly changing background image",
+        "ff_3": "Interactive portfolio",
+        "ff_4": "Blog that enables variety in displaying content",
+        "ff_5": "Embedded elements (videos, map)",
+        "ff_6": "A working contact-form",
+        "ff_7": "Scales nicely for both mobile- and desktop devices",
+        "ff_8": "Media-content optimized using \"thumbnail\"-pictures and other common methods"
+}
+

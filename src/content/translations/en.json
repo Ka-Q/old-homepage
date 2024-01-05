@@ -1,0 +1,77 @@
+{
+    "id": "en",
+    "front_page": "Front page",
+    "blog": "Blog",
+    "portfolio": "Portfolio",
+    "contact": "Contact me",
+
+    "close_button":"Close",
+
+    "about_title": "Mandoline me",
+    "about_1": "Hi there! My name is Aku Laurila. I am a 22 year old Computer Science student at the University of Eastern Finland, Kuopio. I guess you found yourself on this page either by googling or through a link I gave you. I'd guess you're here to get a sense of who I am and what I do.",
+    "about_2": "I am also a passionate 3D-hobbyist. 3D-scenes, animations, materials, etc. made by me are found under \"Portfolio\".",
+
+    "about_site_title": "This site's purpose and development techniques.",
+    "about_site_1": "This site started its life as a schoolproject but updates have happened since. The purpose of the assignment was to create a responsive user-interface for both mobile- and desktop browsers. For the development of this site, I've mainly used ",
+    "about_site_2": "the React-framework",
+    "about_site_3": ". In addition to that, I also installed the ",
+    "about_site_4": "React-bootstrap",
+    "about_site_5": " library. More about the development over at the blog.",
+
+    "read_more_button": "Read more...",
+
+    "filter": "Filter",
+    "search_by_title": "Search by title",
+    "sort": "Sort",
+    "date_ascending": "Date (oldest → newest)",
+    "date_descending": "Date (newest → oldest)",
+    "alphabetical_ascending": "Alphabetical (A → Z)",
+    "alphabetical_descending": "Alphabetical (Z → A)",
+
+    "tags": "Tags:",
+    "3D": "3D",
+    "web": "Web",
+    "meta": "Meta",
+    "hobbies": "Hobbies",
+    "languages": "Languages",
+    "clear_filters": "Clear filters",
+
+    "showing": "Showing ",
+    "items_per_page": "posts/page",
+    "currently_viewing_page": "You're currently on page ",
+    "next": "🡺",
+    "previous": "🡸",
+
+    "about_implementation_title": "About implementation, structure and functionality of this site",
+    "about_implementation_text": "This site was originally created for a uni-assignment. The purpose of the assignment was to create a responsive user-interface for both mobile- and desktop browsers. For the development of this site, I've mainly used the React-framework. In addition to that, I also installed the React-Bootstrap library that enables the use of bootstrap's classes and functionality as React components. After going through the options for hosting the site, I ended up with Netlify. Netlify's free to a certain extent and it also offers the possibility to...",
+    "comparison_to_mockups_title": "Comparison to mockups",
+    "comparison_to_mockups_text": "no translation",
+    "last_minute_changes_title": "Last minute changes",
+    "last_minute_changes_text": "no translation",
+    "helpful_3D_assets_title": "Helpful 3D assets",
+    "helpful_3D_assets_text": "no translation",
+    "new_in_blog_title": "A new, better blog!",
+    "new_in_blog_text": "The blog-view, even though working, was not very user-friendly. There weren't any problems yet but I had a growing suspicion, that as the amount of blog-posts would grow, new proplems could emerge. All of the blog-posts were shown at once, one after the another. There was no way to filter the posts and their order was not customizable. So... I went ahead and implemented exactly these...",
+    
+
+    "portfolio_explanation_1": "Click an image to open a corresponding image album. Albums contain viewport-renders and possible refrence-images or/and other related content. ",
+    "portfolio_explanation_2": "Attention!",
+    "portfolio_explanation_3": " The resolution of some images on this page are quite large. Loading them may take a while.",
+
+    "portfolio_3D_architecture": "3D-architecture",
+    "portfolio_3D_animation": "3D-animation",
+    "portfolio_3D_materials": "3D-materials",
+
+    "map_description": "Location on a map",
+    
+    "contact_form_title": "Leave a message",
+    "contact_form_explanation_1": "You can leave me a message. This contact-form uses Netlify's built-in ",
+    "contact_form_explanation_2": "form functionality.",
+    "contact_form_error": "Email formatted wrong or missing. Message has to be at least five characters long.",
+    "contact_form_success": "Information given is formatted correctly!",
+    "contact_form_send": "Send",
+    "contact_form_clear": "Clear",
+    "contact_form_disclaimer": "Your info will not be shared publicly",
+    "contact_form_email": "Your email",
+    "contact_form_msg": "Your message (at leas 5 characters long)"
+}
