@@ -3,4 +3,4 @@
 Sitemap: http://www.akulaurila.com/sitemap.xml
 
 User-agent: *
-Disallow:
+Disallow: /
