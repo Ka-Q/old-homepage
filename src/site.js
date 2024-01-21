@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Navbar, Nav, NavDropdown, Row, Col, Image, Container, Stack, Button, Card, Accordion, Form} from "react-bootstrap"
 import {Routes, Route, BrowserRouter as Router} from 'react-router-dom'
 import {LinkContainer} from 'react-router-bootstrap'
@@ -110,6 +110,15 @@ const SiteApp = () => {
 
 const SiteNavBar = (props) => {
 
+    const [alerted, setAlerted] = useState(false);
+
+    useEffect(() => {
+        if (!alerted) {
+            window.alert("!!! \n You are viewing an archived version of my previous home page! \n!!! \n If you want to contact me or see what I'm up to, check out about.akulaurila.com. The contact form on this site has been disabled.");
+            setAlerted(true);
+        }
+    }, [alerted])
+
     //site language defaults to browser language
     const defaultLang = (str) => {
         let userLang = navigator.language || navigator.userLanguage; 
@@ -191,6 +200,7 @@ const SiteNavBar = (props) => {
         borderRadius: "5px",
         height: "30px"
       }
+      
 
     return (
         <>
